@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(#ffffff,#eee0cb);
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 24px;
+}
+
+h1 {
+    margin-bottom: 16px;
+}
+
+img {
+    display: block;
+    margin: 16px 0 0 0;
+    border-radius: 16px;
+    box-shadow: 1px 1px 8px 1px gray;
+}
+
+.paragrafo { 
+    line-height: 1.2;
+    margin-bottom: 8px;
+    max-width: 600px;
+    margin-top: 16px;
+}
+
+h2 {
+    margin: 8px 0;
+}
+
+ul {
+    margin-left: 48px;
+    max-width: 400px;
+}
+
+footer{
+    background-color: black; 
+    width: 100%;
+    overflow: hidden;
+    height: 200px;
+}
