@@ -45,9 +45,17 @@ iframe {
     margin-top: 50px;
 }
 
+#imprimir {
+    background-color: #eee0cb;
+    width: 140px;
+    height: 40px;
+    border-radius: 8px;
+    border-color: #eee0cb;
+}
+
 footer{
     background-color: black; 
     width: 100%;
     overflow: hidden;
-    height: 200px;
+    height: 100px;
 }
