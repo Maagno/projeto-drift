@@ -7,7 +7,8 @@
 
    </head>
 
-   <body>
+   <body onKeyDown="vira(event.keyCode);" onKeyUp="para(event.keyCode);" bgcolor=#e1e1e1>
+      <br>
       <header></header>
       <main>
          <h1>Você sabe o que é Drift?</h1>
@@ -58,8 +59,16 @@
          <iframe width="560" height="315" src="https://www.youtube.com/embed/1rkgN_Isf3o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
          <input id="imprimir" type="button" value="Imprimir essa página" onclick="window.print();"/>
+
+         <center>
+            <div id=carro></div>
+            <canvas id=canvas width=460 height=460 style='background-color:#ffffff; border:4px solid #497894; border-radius:10px;'></canvas>
+          </center>
       </main>
 
       <footer></footer>
    </body>
+
+   <script src="main.js"></script>   
+   
 </html>
